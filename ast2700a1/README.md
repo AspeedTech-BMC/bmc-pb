@@ -1,9 +1,22 @@
-# Briefly describe each prebuilt binary (PB)
+# AST2700 A1 Prebuilt Binaries
 
-- caliptra-fw.bin
-  - This is Caliptra FMC/Runtime firmware, built from: https://github.com/chipsalliance/caliptra-sw/tree/rt-1.2.1
-  - Includes ASPEED 4 ECC public keys and 1 ECC signature.
+This folder contains prebuilt firmware specifically for ASPEED AST2700 A1 silicon.
 
-- caliptra-fw-v1p1.bin
-  - This is Caliptra FMC/Runtime firmware, built from: https://github.com/chipsalliance/caliptra-sw/tree/rt-1.1.0
-  - Includes ASPEED 4 ECC public keys and 1 ECC signature.
+## Firmware List
+
+### Caliptra Firmware
+- **caliptra-fw.bin**
+  - **Source**: [chipsalliance/caliptra-sw (rt-1.2.1)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.2.1)
+  - **Features**: Includes ASPEED 4 ECC public keys and 1 ECC signature.
+- **caliptra-fw-v1p1.bin**
+  - **Source**: [chipsalliance/caliptra-sw (rt-1.1.0)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.1.0)
+  - **Features**: Includes ASPEED 4 ECC public keys and 1 ECC signature.
+
+### DDR PHY Firmware
+- **ddr4_pmu_train_imem.bin / ddr4_pmu_train_dmem.bin**: DDR4 PMU training firmware.
+- **ddr4_2d_pmu_train_imem.bin / ddr4_2d_pmu_train_dmem.bin**: DDR4 2D PMU training firmware.
+- **ddr5_pmu_train_imem.bin / ddr5_pmu_train_dmem.bin**: DDR5 PMU training firmware.
+
+### Display and System
+- **dp_fw.bin**: DisplayPort controller firmware.
+- **uefi_ast2700.bin**: UEFI reference BIOS image.
