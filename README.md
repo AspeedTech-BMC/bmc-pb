@@ -8,7 +8,7 @@ The content is organized by SoC model and silicon revision to ensure compatibili
 
 - `ast2700a1/`: Binaries for AST2700 A1
 - `ast2700a2/`: Binaries for AST2700 A2
-- `ast2755a0/`: Binaries for AST2755 A0
+- `ast2705a0/`: Binaries for AST2705 A0
 - `ast1040a0/`: Binaries for AST1040 A0
 
 ## Usage

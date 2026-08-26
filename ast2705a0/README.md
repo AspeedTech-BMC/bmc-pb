@@ -1,6 +1,6 @@
-# AST2755 A0 Prebuilt Binaries
+# AST2705 A0 Prebuilt Binaries
 
-This folder contains prebuilt firmware specifically for ASPEED AST2755 A0 silicon.
+This folder contains prebuilt firmware specifically for ASPEED AST2705 A0 silicon.
 
 ## Firmware List
 
@@ -10,6 +10,6 @@ This folder contains prebuilt firmware specifically for ASPEED AST2755 A0 silico
   - **Notes**: Includes specific changes for FPGA DMA.
 
 
-- **ast2755_xip_rom_vf502_f1a1817.bin**
+- **boomcu-rom-xip.bin**
   - **Description**: Boot MCU XIP ROM.
   - **Source**: I4b560d7427f1ef77700be98e670f6dd797f80c0f
